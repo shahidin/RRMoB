@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Dashboard"
+            android:icon="@drawable/dashboard"/>
+        <item
+            android:id="@+id/menu_profile"
+            android:title="Profile"
+            android:icon="@drawable/profile">
+        </item>
+        <item
+            android:id="@+id/menu_faq"
+            android:title="FAQ"
+            android:icon="@drawable/faq"/>
+        <item
+            android:id="@+id/menu_video"
+            android:title="Video Tutorial"
+            android:icon="@drawable/video"/>
+        <item
+            android:id="@+id/menu_licence"
+            android:title="View License"
+            android:icon="@drawable/certificate"/>
+        <item
+            android:id="@+id/menu_report"
+            android:title="Report Issues"
+            android:icon="@drawable/exclamation"/>
+        <item
+            android:id="@+id/menu_update"
+            android:title="Check For Updates"
+            android:icon="@drawable/update"/>
+        <item
+            android:id="@+id/menu_about"
+            android:title="About"
+            android:icon="@drawable/global"/>
+        <item
+            android:id="@+id/menu_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+        <item
+            android:id="@+id/menu_exit"
+            android:title="Exit"
+            android:icon="@drawable/poweroff"/>
+
+    </group>
+</menu>
